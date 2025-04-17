@@ -16,7 +16,7 @@ The repo is open for change!
 ## Setup and run the server
 
 1. Clone the repo
-2. Run `pnpm install`
+2. Run `pnpm install ok`
 3. Run `pnpm run build`
 
 ## Setup with Claude Desktop

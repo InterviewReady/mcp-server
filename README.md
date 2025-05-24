@@ -53,3 +53,10 @@ The repo is open for change!
 } 
 ```
 4. Use in agent mode. For some reason, MCP is not working in Ask mode.
+
+## Reminder Tools
+
+- **create-reminder:** Set a reminder for an upcoming class or deadline.
+- **get-reminders:** Fetch all reminders.
+
+Use these tools from any MCP-compatible client (such as Cursor or Claude Desktop).

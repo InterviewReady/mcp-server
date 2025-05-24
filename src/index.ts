@@ -3,6 +3,7 @@ import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js"
 import { CoursesTool } from "./tools/CourseTool.js";
 import { BlogTool } from "./tools/BlogTool.js";
 import { ResourceTool } from "./tools/ResourceTool.js";
+import { ReminderTool } from "./tools/ReminderTool.js";
 
 const server = new McpServer({
   name: "interviewready",
@@ -16,6 +17,7 @@ const server = new McpServer({
 new CoursesTool(server)
 new BlogTool(server)
 new ResourceTool(server)
+new ReminderTool(server)
 
 async function main() {
   const transport = new StdioServerTransport();
